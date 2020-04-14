@@ -10,19 +10,24 @@ public class Main {
         int sayi1 = keyboard.nextInt();
         System.out.println("enter an second integer: ");
         int sayi2 = keyboard.nextInt();
-     //   System.out.println(sonuc(deger1,deger2));
-       String sonuc =karsilastirma(sayi1,sayi2);
-        System.out.println(sonuc);
 
+     //   System.out.println(sonuc(deger1,deger2));
+        Boolean sonuc1 =karsilastirma(sayi1,sayi2);
+        Boolean sonuc2 =karsilastirma(sayi2,sayi1);
+        if(sonuc1){
+            System.out.println("1. Sayi Büyüktür");
+        }else if(sonuc2){
+            System.out.println("2. sayi büyüktür");
+        } else {
+            System.out.println("Iki sayi birbirine esittir");
+        }
     }
 
-    private static String karsilastirma (Integer deger1, Integer deger2){
+    private static Boolean karsilastirma (Integer deger1, Integer deger2){
         if (deger1>deger2){
-            return "ilk deger büyük";
-        }  else if(deger1==deger2){
-            return "iki deger esittir";
-        }else{
-            return "ikinci deger büyük";
+            return true;
+        }  else{
+            return false;
         }
 
     }
