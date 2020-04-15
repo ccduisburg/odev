@@ -31,4 +31,18 @@ public class Main {
         }
 
     }
+//https://www.w3schools.com/
+//https://www.tutorialspoint.com/java/index.htm
+
+    private  Double topla(double sayi1, double sayi2){
+
+        Double sonuc =(sayi1+sayi2);
+
+        return sonuc;
+    }
+
+    private Double cikar(double sayi1, double sayi2){
+        Double sonuc=sayi1-sayi2;
+       return sonuc;
+    }
 }
