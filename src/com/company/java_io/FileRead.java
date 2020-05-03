@@ -1,30 +1,32 @@
 package com.company.java_io;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
+import java.io.*;
+import java.util.Scanner;
 
 public class FileRead {
-    Reader fileReader;
 
-    {
+
+    public static void main(String[] args) throws IOException {
         try {
-            fileReader = new FileReader("\\src\\text.txt");
+            //Önceden acilmis dosyaya  ekleme yapmak icin
+            BufferedWriter out = new BufferedWriter(new FileWriter("/home/cc/IdeaProjects/deneme/src/file.txt", true));
+            out.write(" This is appendText");
+            out.newLine();
+            out.close();
+            // Bir text dosyasinin icerigini okumak
+            File myObj=new File("/home/cc/IdeaProjects/deneme/src/file.txt");
+            Scanner myReader;
+            myReader = new Scanner(myObj);
+            //Bütün satirlari sonuna kadar okumak icin
+            while(myReader.hasNextLine()){
+                String data=myReader.nextLine();
+                System.out.println(data);
+            }
+            myReader.close();
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
-
-    int data;
-
-    {
-        try {
-            data = fileReader.read();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
 
 }
