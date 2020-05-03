@@ -1,4 +1,4 @@
-package com.company.xml;
+package com.company.java_io;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
