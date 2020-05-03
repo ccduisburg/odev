@@ -1,4 +1,4 @@
-package com.company.example_interface.sekil;
+package com.javatutorial.example_interface.sekil;
 
 public interface Sekil {
   double alanHesapla();

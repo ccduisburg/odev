@@ -1,4 +1,4 @@
-package com.company.example_abstract.auto;
+package com.javatutorial.example_abstract.auto;
 
 public class Bmw extends Araba{
     @Override

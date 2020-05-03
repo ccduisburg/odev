@@ -1,4 +1,4 @@
-package com.company.example_interface.person;
+package com.javatutorial.example_interface.person;
 
 import java.util.ArrayList;
 import java.util.List;

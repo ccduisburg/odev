@@ -1,4 +1,4 @@
-package com.company.java_io;
+package com.javatutorial.java_io;
 
 import java.io.*;
 import java.util.Scanner;

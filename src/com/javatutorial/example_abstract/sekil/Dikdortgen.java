@@ -1,4 +1,4 @@
-package com.company.example_abstract.sekil;
+package com.javatutorial.example_abstract.sekil;
 
 public class Dikdortgen extends Sekil {
     private int kosea;

@@ -1,4 +1,4 @@
-package com.company.example_vererbung;
+package com.javatutorial.example_vererbung;
 
 public class GiroKonto extends Konto {
     double dispo;

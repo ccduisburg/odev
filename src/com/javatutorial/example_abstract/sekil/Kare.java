@@ -1,6 +1,6 @@
-package com.company.example_interface.sekil;
+package com.javatutorial.example_abstract.sekil;
 
-public class Kare implements Sekil {
+public class Kare extends Sekil{
     private int kosea;
 
     public int getKosea() {

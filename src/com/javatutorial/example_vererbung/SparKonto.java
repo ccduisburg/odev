@@ -1,4 +1,4 @@
-package com.company.example_vererbung;
+package com.javatutorial.example_vererbung;
 
 public class SparKonto extends Konto {
     void ausZahlun(double miktar){

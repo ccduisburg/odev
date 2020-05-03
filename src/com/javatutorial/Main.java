@@ -1,11 +1,17 @@
-package com.company.example_interface.sekil;
+package com.javatutorial;
 
-import com.company.example_abstract.sekil.Dikdortgen;
-import com.company.example_abstract.sekil.Kare;
-import com.company.example_abstract.sekil.Sekil;
+import com.javatutorial.example_abstract.sekil.Dikdortgen;
+import com.javatutorial.example_abstract.sekil.Kare;
+import com.javatutorial.example_abstract.sekil.Sekil;
 
-public class MainSekil {
+public class Main {
+
     public static void main(String[] args) {
+//       Araba a1=new Bmw();
+//       Araba a2= new Mercedes();
+//       a1.calistir();
+//       a2.calistir();
+
         Kare k1 = new Kare();
         k1.setKosea(5);
 
@@ -27,5 +33,9 @@ public class MainSekil {
         System.out.println("Dikdörtgen alani  --" + d1.alanHesapla());
         System.out.println("Karenin cevresi  --" + k1.cevreHesapla());
         System.out.println("Dikdörtgen cevre  --" + d1.cevreHesapla());
+
+
     }
+
+
 }
