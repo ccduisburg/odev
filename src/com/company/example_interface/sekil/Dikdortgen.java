@@ -1,6 +1,6 @@
-package com.company.sekil;
+package com.company.example_interface.sekil;
 
-public class Dikdortgen extends Sekil {
+public class Dikdortgen implements Sekil {
     private int kosea;
     private int koseb;
 
@@ -19,13 +19,14 @@ public class Dikdortgen extends Sekil {
         this.koseb = koseb;
     }
 
+
     @Override
     public double alanHesapla() {
-        return kosea*koseb;
+        return 0;
     }
 
     @Override
-   public double cevreHesapla() {
-        return 2*kosea+2*koseb;
+    public double cevreHesapla() {
+        return 0;
     }
 }

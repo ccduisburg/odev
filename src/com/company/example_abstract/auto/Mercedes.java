@@ -1,4 +1,4 @@
-package com.company;
+package com.company.example_abstract.auto;
 
 public class Mercedes extends Araba{
     @Override

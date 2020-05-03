@@ -1,4 +1,4 @@
-package com.company.sekil;
+package com.company.example_abstract.sekil;
 
 public class Kare extends Sekil{
     private int kosea;
